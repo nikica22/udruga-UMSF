@@ -35,9 +35,13 @@ udruga-UMSF/
 ├── dogadjanja.html
 ├── onama.html
 ├── kontakt.html
-├── style.css
-├── script.js
-└── hero.jpg
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── img/
+│   └── hero.jpg
+└── README.md
 ```
 ## Git povijest
 
