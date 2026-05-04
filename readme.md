@@ -39,6 +39,9 @@ udruga-UMSF/
 └── hero.jpg
 ` ``
 Git povijest
-CommitSadržajVjezba 1HTML — struktura stranicaVjezba 2CSS — dizajn i responzivnostVjezba 3JavaScript, Google Analytics, Netlify deploy
+Commit Sadržaj
+Vjezba 1 HTML — struktura stranica
+Vjezba 2 CSS — dizajn i responzivnost 
+Vjezba 3 JavaScript, Google Analytics, Netlify deploy
 Autor
 Nina Kereš — UNIZD, Kultura i turizam / DK, 2025./2026.
