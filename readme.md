@@ -29,6 +29,7 @@ https://udrugaumsf.netlify.app
 - Netlify hosting
 
 ## Struktura projekta
+```
 udruga-UMSF/
 ├── index.html
 ├── dogadjanja.html
@@ -37,7 +38,7 @@ udruga-UMSF/
 ├── style.css
 ├── script.js
 └── hero.jpg
-` ``` `
+```
 ## Git povijest
 
 | Commit | Sadržaj |
