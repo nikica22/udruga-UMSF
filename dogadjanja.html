@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Događanja | Udruga Mladih Santa Fe</title>
+    <meta name="description" content="Pogledaj sva događanja koja organizira Udruga Mladih Santa Fe u Sutomišćici.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Događanja | Udruga Mladih Santa Fe">
+    <meta property="og:description" content="Događanja za mlade u Sutomišćici">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vase-ime.netlify.app/dogadjanja.html">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-75VJXSD8WT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-75VJXSD8WT');
+</script>
+</head> 
+<body>
+
+    <header>
+        <nav>
+            <nav>
+    <div class="logo">Udruga Mladih Santa Fe</div>
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul id="nav-menu">
+        ...
+    </ul>
+</nav>
+            <div class="logo">Udruga Mladih Santa Fe</div>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="dogadjanja.html" class="active">Događanja</a></li>
+                <li><a href="onama.html">O nama</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="stranica-hero">
+            <h1>Događanja</h1>
+            <p>Sva događanja Udruge Mladih Santa Fe u Sutomišćici</p>
+        </section>
+
+        <!-- FILTER GUMBI -->
+        <section class="filter-sekcija">
+            <button class="filter-btn active" data-filter="sve">Sve</button>
+            <button class="filter-btn" data-filter="sport">Sport</button>
+            <button class="filter-btn" data-filter="kultura">Kultura</button>
+            <button class="filter-btn" data-filter="zabava">Zabava</button>
+        </section>
+
+        <!-- KARTICE DOGAĐANJA -->
+        <section class="dogadjanja-grid">
+
+            <div class="kartica" data-kategorija="sport">
+                <h2>Turnir u košarci</h2>
+                <p class="datum">15. lipnja 2025.</p>
+                <p>Godišnji turnir u košarci na lokalnom igralištu u Sutomišćici.</p>
+                <span class="tag sport">Sport</span>
+            </div>
+
+            <div class="kartica" data-kategorija="kultura">
+                <h2>Kulturna večer</h2>
+                <p class="datum">22. lipnja 2025.</p>
+                <p>Glazbeni nastup i izložba mladih umjetnika iz Sutomišćice.</p>
+                <span class="tag kultura">Kultura</span>
+            </div>
+
+            <div class="kartica" data-kategorija="zabava">
+                <h2>Ljetna žurka</h2>
+                <p class="datum">1. srpnja 2025.</p>
+                <p>Najveća ljetna zabava na plaži za sve mlade iz mjesta.</p>
+                <span class="tag zabava">Zabava</span>
+            </div>
+
+            <div class="kartica" data-kategorija="sport">
+                <h2>Plivački maraton</h2>
+                <p class="datum">10. srpnja 2025.</p>
+                <p>Natjecanje u plivanju otvorenog mora kod Sutomišćice.</p>
+                <span class="tag sport">Sport</span>
+            </div>
+
+            <div class="kartica" data-kategorija="kultura">
+                <h2>Kino na otvorenom</h2>
+                <p class="datum">20. srpnja 2025.</p>
+                <p>Projekcija filma pod zvijezdama na trgu u Sutomišćici.</p>
+                <span class="tag kultura">Kultura</span>
+            </div>
+
+            <div class="kartica" data-kategorija="zabava">
+                <h2>Roštilj fest</h2>
+                <p class="datum">5. kolovoza 2025.</p>
+                <p>Druženje uz roštilj i glazbu za cijelu zajednicu.</p>
+                <span class="tag zabava">Zabava</span>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025. Udruga Mladih Santa Fe, Sutomišćica</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

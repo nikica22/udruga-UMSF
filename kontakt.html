@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Kontakt | Udruga Mladih Santa Fe</title>
+    <meta name="description" content="Kontaktiraj Udrugu Mladih Santa Fe iz Sutomišćice. Pošalji nam poruku ili se pridruži udruzi.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Kontakt | Udruga Mladih Santa Fe">
+    <meta property="og:description" content="Kontaktiraj Udrugu Mladih Santa Fe iz Sutomišćice.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vase-ime.netlify.app/kontakt.html">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-75VJXSD8WT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-75VJXSD8WT');
+</script>
+</head>
+<body>
+
+    <header>
+        <nav> <nav>
+    <div class="logo">Udruga Mladih Santa Fe</div>
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul id="nav-menu">
+        ...
+    </ul>
+</nav>
+            <div class="logo">Udruga Mladih Santa Fe</div>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="dogadjanja.html">Događanja</a></li>
+                <li><a href="onama.html">O nama</a></li>
+                <li><a href="kontakt.html" class="active">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="stranica-hero">
+            <h1>Kontakt</h1>
+            <p>Pošalji nam poruku ili se pridruži udruzi</p>
+        </section>
+
+        <section class="kontakt-sadrzaj">
+
+            <div class="kontakt-info">
+                <h2>Pronađi nas</h2>
+                <p>📍 Sutomišćica, otok Ugljan</p>
+                <p>📧 info@santafe-sutomiscica.hr</p>
+                <p>📱 +385 91 234 5678</p>
+            </div>
+
+            <div class="kontakt-forma">
+                <h2>Pošalji poruku</h2>
+                <form id="kontakt-form" novalidate>
+
+                    <div class="forma-grupa">
+                        <label for="ime">Ime i prezime *</label>
+                        <input 
+                            type="text" 
+                            id="ime" 
+                            name="ime" 
+                            placeholder="Upiši svoje ime i prezime"
+                            required>
+                        <span class="greska" id="greska-ime"></span>
+                    </div>
+
+                    <div class="forma-grupa">
+                        <label for="email">Email adresa *</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            placeholder="Upiši svoju email adresu"
+                            required>
+                        <span class="greska" id="greska-email"></span>
+                    </div>
+
+                    <div class="forma-grupa">
+                        <label for="poruka">Poruka *</label>
+                        <textarea 
+                            id="poruka" 
+                            name="poruka" 
+                            rows="5"
+                            placeholder="Upiši svoju poruku..."
+                            required></textarea>
+                        <span class="greska" id="greska-poruka"></span>
+                    </div>
+
+                    <button type="submit" class="btn">Pošalji poruku</button>
+                    <p class="uspjeh" id="uspjeh-poruka"></p>
+
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025. Udruga Mladih Santa Fe, Sutomišćica</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
